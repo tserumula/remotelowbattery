@@ -50,9 +50,7 @@ const char *hostURL = "http://YOUR_SERVER_DOMAIN/PATH"; // Replace with your val
 ```
 String httpRequestData = "auth=YOUR_API_KEY&deviceId=esp8266_nmcu_12e";
 ```
-Replace YOUR_API_KEY with your own key and modify deviceId as needed.
-
-
+Replace `YOUR_API_KEY` with your own key and modify deviceId as needed.
 
 
 
