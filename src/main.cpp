@@ -73,7 +73,7 @@ void loop()
       http.addHeader("Content-Type", "application/x-www-form-urlencoded");
 
       // Our POST data payload
-      String httpRequestData = "auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&deviceId=esp8266_nmcu_12e";
+      String httpRequestData = "auth=YOUR_API_KEY&deviceId=esp8266_nmcu_12e";
 
       // Send HTTP POST request
       int responseCode = http.POST(httpRequestData);
